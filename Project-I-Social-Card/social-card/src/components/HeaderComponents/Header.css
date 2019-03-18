@@ -1,31 +1,27 @@
 /* All styles for your header Components live here */
-.HeaderContainer{
-    display: flex;
-    
-    flex-wrap: wrap;
-    
+.HeaderContainer {
+  display: flex;
+
+  flex-wrap: wrap;
 }
-.img{
-    width: 75px;
-    height: 75px;
-    
+.img {
+  width: 75px;
+  height: 75px;
+  padding: 0 5px;
 }
 
- .HeaderContent{
-display: flex;
+.HeaderContent {
+  display: flex;
+}
+.HeaderContent p {
+  margin: 10px 80px;
+}
+.HeaderTitle {
+  display: flex;
+  padding: 0 5px;
+  align-items: center;
+}
 
- }   
- .HeaderContent p{
-     margin: 10px 80px;
- }
- .HeaderTitle{
-     display: flex;
-     justify-content: space-around;
-     align-content: center;
-     
-   
- } 
-
-.HeaderTitle h1{
-    font-size: 16px;
+.HeaderTitle h3 {
+    padding: 0 5px;
 }
