@@ -2,9 +2,12 @@ import React from "react";
 import "./Header.css";
 
 function HeaderTitle() {
-    const date = new Date().getMonth() + 1;
+    
   return <div className= "HeaderTitle">
-  <h1> @LambdaSchool {date}</h1>
+  <h3>Lambda School</h3>
+  <p> @LambdaSchool 3/18/2019 </p>
+    
+
   </div>
 }
 

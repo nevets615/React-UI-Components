@@ -1,7 +1,23 @@
 /* All styles for your Card Components live here */
 
+.CardContainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 100%;
+  padding: 0 80px;
+
+}
+
 .img2{
     display: flex;
-    max-width: 100%;
+   
+    
+  }
+
+  .CardContent{
+    display: flex;
+    flex-direction: column; 
+    padding: 0 15px;
     
   }
